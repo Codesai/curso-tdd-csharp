@@ -11,31 +11,31 @@ Be able to test `Alarm`'s `check` function without changing the method signature
 [Mockito](http://mockito.org/)
 
 ### Example of mock
-```java
-@Test
+```csharp
+[Fact]
 public void should_interact_with_the_mock() {
-  Collaborator collaborator = mock(Collaborator.class);
-  MyClass myClass = new MyClass(collaborator);
+    collaborator = Substitute.For<Collaborator>();       
+    MyClass myClass = new MyClass(collaborator);
 
-  myClass.run();
+    myClass.Run();
 
-  verify(collaborator).collaborate();
+    collaborator.Received().Collaborate();
 }
 ```
 
 ### Example of stub
 
-```java
-@Test
+```csharp
+[Fact]
 public void should_retrieve_the_stub_response(){
-  Collaborator collaborator = mock(Collaborator.class);
-  String collaboratorResponse = "some response";
-  when(collaborator.collaborate()).thenReturn(collaboratorResponse);
-  MyClass myClass = new MyClass(collaborator);
+    collaborator = Substitute.For<Collaborator>();
+    String response = "collaborator response";
+    calculator.Collaborate().Returns(response);
+    MyClass myClass = new MyClass(collaborator);
 
-  String result = myClass.run();
+    String result = myClass.Run();
 
-  assertEquals(result, collaboratorResponse);
+    Assert.Equal(response, result);
 }
 ```
 
