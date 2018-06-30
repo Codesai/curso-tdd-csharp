@@ -3,12 +3,12 @@
 ## Goal
 Be able to test `Alarm`'s `check` function without changing the method signature.
 
-1. Test the code with doubles created by you.
+1. Test the code using test doubles created by you.
 
-2. Test the code with doubles from a library.
+2. Test the code using test doubles created with a library.
 
 ## Tools
-[Mockito](http://mockito.org/)
+[NSubstitute](http://nsubstitute.github.io/)
 
 ### Example of mock
 ```csharp
@@ -42,7 +42,7 @@ public void should_retrieve_the_stub_response(){
 ## Learnings
 How to build a Spy and a Stub manually.
 
-How to use Mockito to generate the test doubles.
+How to use NSubstitute to generate the test doubles.
 
 ## References
 
