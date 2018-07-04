@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTirePressureVariation", "KataTirePressureVariation\KataTirePressureVariation.csproj", "{DFE5635F-2669-4D94-B6BC-3EBC8F73A7F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTirePressureVariation.Tests", "KataTirePressureVariation.Tests\KataTirePressureVariation.Tests.csproj", "{68320DD9-5B60-482A-8609-F21639C2C7E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE5635F-2669-4D94-B6BC-3EBC8F73A7F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFE5635F-2669-4D94-B6BC-3EBC8F73A7F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFE5635F-2669-4D94-B6BC-3EBC8F73A7F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFE5635F-2669-4D94-B6BC-3EBC8F73A7F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68320DD9-5B60-482A-8609-F21639C2C7E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68320DD9-5B60-482A-8609-F21639C2C7E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68320DD9-5B60-482A-8609-F21639C2C7E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68320DD9-5B60-482A-8609-F21639C2C7E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
