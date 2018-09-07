@@ -10,7 +10,7 @@ Be able to test `Alarm`'s `check` function without changing the method signature
 ## Tools
 [NSubstitute](http://nsubstitute.github.io/)
 
-### Example of mock
+### Example of spy
 ```csharp
 [Fact]
 public void should_interact_with_the_mock() {
