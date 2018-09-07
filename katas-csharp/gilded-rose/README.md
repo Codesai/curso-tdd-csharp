@@ -42,5 +42,3 @@ Important files
 - Tests file: GildedRoseTest
 - Code: GildedRose (and Item)
 - Sample of execution: TexttestFixtures
-
-[Possible tests solution](https://gist.github.com/mjtordesillas/1f328c7d62d2a8ad5dc451dd19fe4092)
