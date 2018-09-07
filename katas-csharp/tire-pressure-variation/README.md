@@ -30,7 +30,7 @@ public void should_interact_with_the_mock() {
 public void should_retrieve_the_stub_response(){
     collaborator = Substitute.For<Collaborator>();
     String response = "collaborator response";
-    calculator.Collaborate().Returns(response);
+    collaborator.Collaborate().Returns(response);
     MyClass myClass = new MyClass(collaborator);
 
     String result = myClass.Run();
