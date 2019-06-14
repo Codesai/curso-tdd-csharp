@@ -1,11 +1,7 @@
-﻿using System;
-
-namespace KataCoffeeMachine
+﻿namespace KataCoffeeMachine
 {
-    public class DrinkMaker
+    public interface DrinkMaker
     {
-        public void Execute(string command){
-            // send the command to the DrinkMaker
-        }
+        void Execute(string command);
     }
 }
